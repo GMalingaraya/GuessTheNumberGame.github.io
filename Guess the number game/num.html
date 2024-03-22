@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Guess the number game</title>
+        <link rel="stylesheet" href="num.css">
+    </head>
+    <body>
+        <h1>Guess My Number</h1><br>
+        <p>Guess a random number</p>
+        <div class="inputs">
+        <input value="1" id="from1" class="input1" style="position:relative; width:80px;">
+        <input value="100" id="from2" class="input2" style="position:relative; width:80px;">
+        <button id="submit" onclick="submit()">New Target</button>
+    </div>
+    <div class="span" id="result">
+
+    </div>
+    <input value="" id="from3" class="input3" style="position:relative; width:160px;">
+    <div class="btn2">
+        <button  onclick="Guess()">Guess</button>
+        </div>
+    <script src="num.js"></script>
+    </body>
+</html>

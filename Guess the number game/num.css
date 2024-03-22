@@ -1,0 +1,65 @@
+body {
+    background-image: url('wallpaper4.jpeg');
+    width: 500px;
+}
+h1{
+    position: relative;
+    left: 340px;
+    color:rgb(11, 82, 94);
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+p{
+    text-align: center;
+    position: relative;
+    left: 340px;
+}
+.inputs {
+    position: relative;
+    left: 340px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.inputs input {
+    text-align: center;
+    margin: 2px;
+    border-radius: 5px;
+    background: #e89797;
+}
+#submit {
+    border-radius: 5px;
+    background: linear-gradient(to top right, #00b3ff 0%, #0088ff 50%, rgb(140, 0, 255)0%);
+    color: var(--b3Clr);
+}
+.span {
+    border: 2px solid black;
+    width: 230px;
+    height: 35px;
+    position:relative;
+    left: 470px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.input3 {
+    left: 460px;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    background: #e89797;
+    border-radius: 5px;
+}
+.btn2 {
+    position: relative;
+    left: 635px;
+    margin-top: -20px;
+}
+.btn2 button {
+    border-radius: 5px;
+    background: linear-gradient(to top right, #00b3ff 0%, #0088ff 50%, rgb(140, 0, 255)0%);
+}
